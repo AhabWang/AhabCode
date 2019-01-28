@@ -30,7 +30,7 @@ class baidu():
 		self.session.cookies.set('BAIDUID', '19288887A223954909730262637D1DEB:FG=1;')
 		self.session.cookies.set('PSTM', '%d;' % int(time.time()))
 		self.headers = {
-							'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+							'User-Agent': 'XXX'
 						}
 		self.data = {
 						'query': '',
@@ -68,9 +68,9 @@ Function:
 class youdao():
 	def __init__(self):
 		self.headers = {
-						'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+						'User-Agent': 'XXX',
 						'Referer': 'http://fanyi.youdao.com/',
-						'Cookie': 'OUTFOX_SEARCH_USER_ID=-481680322@10.169.0.83;'
+						'Cookie': 'XXX'
 					}
 		self.data = {
 						'i': None,
@@ -97,7 +97,7 @@ Function:
 class google():
 	def __init__(self):
 		self.headers = {
-						'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+						'User-Agent': 'XXX',
 					}
 		self.url = 'https://translate.google.cn/translate_a/single?client=t&sl=auto&tl={}&hl=zh-CN&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&tk={}&q={}'
 	def translate(self, word):
