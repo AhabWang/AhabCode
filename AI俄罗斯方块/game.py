@@ -3,7 +3,12 @@ from PyQt5.QtCore import Qt, QBasicTimer, pyqtSignal
 from PyQt5.QtGui import QPainter, QColor
 import sys, random
 '''
-俄罗斯方块
+功能
+	AI俄罗斯方块
+作者:
+	Ahab
+公众号:
+	Ahab杂货铺
 '''
 
 class Tetris(QMainWindow):
