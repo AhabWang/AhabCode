@@ -1,4 +1,11 @@
-
+'''
+功能
+	AI俄罗斯方块
+作者:
+	Ahab
+公众号:
+	Ahab杂货铺
+'''
 import copy
 import math
 from modules.utils import *
