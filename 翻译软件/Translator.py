@@ -8,6 +8,7 @@
 	Ahab
 公众号:
 	Ahab杂货铺
+User-Agent和Cookie 需要自行添加
 '''
 import re
 import js
